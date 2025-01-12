@@ -10,6 +10,13 @@
 
 This repo is a Dart Scorer application. The way the code works is that it takes in player names and target score as an input before randomly selecting who goes first. Once the game begins, players enter there score go-by-go whilst being constantly validated (score can not be below 0 or above 180). Once a player gets down to a finish, the program will then display what they require, plus the most common way to checkout that score. It does that by using a .txt file containing each finsih and its most common checkout. Once a player wins (checksout), the game ends and the program ends.
 
+## 🔮 Future Changes
+
+- Add validation so a user can't enter a score to win when it is not a valid checkout as per double out rules. For example, winning the game off a 180
+- Add try-except blocks to handle file problems if the file is missing, empty or not in the correct format
+- Chamge the finishes file to an SQL database
+
+
 ---
 
 ## 🖋️ Languages Used
