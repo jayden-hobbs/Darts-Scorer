@@ -21,7 +21,8 @@ This repo is a Dart Scorer application. The way the code works is that it takes 
 
 ## 🖋️ Languages Used
 
-[![Python Badge](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=3776AB&logoWidth=0&width=200&height=50)](https://www.python.org/)
+[![Python Badge](https://img.shields.io/badge/-Python-28A745?style=for-the-badge&logo=python&logoColor=white&labelColor=28A745&logoWidth=0&width=200&height=50)](https://www.python.org/)
+
 
 
 ## 🔧 Tools Used
