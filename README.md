@@ -5,6 +5,8 @@
 [![GitHub Stars](https://img.shields.io/github/stars/jayden-hobbs/Darts-Scorer?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=FFD700)](https://github.com/jayden-hobbs/Darts-Scorer/stargazers)
 [![GitHub License](https://img.shields.io/github/license/jayden-hobbs/Darts-Scorer?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=08C918)](https://github.com/jayden-hobbs/Darts-Scorer/blob/main/LICENSE)
 
+---
+
 
 ## 📝 Purpose
 
@@ -23,8 +25,6 @@ This repo is a Dart Scorer application. The way the code works is that it takes 
 
 [![Python Badge](https://img.shields.io/badge/-Python-28A745?style=for-the-badge&logo=python&logoColor=white&labelColor=28A745&logoWidth=0&width=200&height=50)](https://www.python.org/)
 [![SQL Badge](https://img.shields.io/badge/-SQL-FFA500?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=FFA500&logoWidth=0&width=200&height=50)](https://www.postgresql.org/)
-
-
 
 ## 🔧 Tools Used
 [![Visual Studio Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visualstudio&logoColor=white)](https://code.visualstudio.com/)
