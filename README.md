@@ -27,8 +27,7 @@ This repo is a Dart Scorer application. The way the code works is that it takes 
 
 
 ## 🔧 Tools Used
-
-[![Visual Studio Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=007ACC&logoWidth=0&width=200&height=50)](https://code.visualstudio.com/) 
+[![Visual Studio Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visualstudio&logoColor=white)](https://code.visualstudio.com/)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=F05032&logoWidth=0&width=200&height=50)
 
 ---
