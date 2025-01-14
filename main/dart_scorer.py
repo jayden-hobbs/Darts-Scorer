@@ -3,6 +3,7 @@
 import sys
 import random
 import time
+from databaseManager import create_database, insert_finishes, load_finishes
 
 def setStartingScore():
     beginning_score = int(input("Enter the starting score: "))
@@ -19,15 +20,6 @@ def getNames():
     else:
         print(f"{player2} goes first.")
     return player1, player2, starterNum
-
-def loadFinishes():
-    finishes = {}
-    with open("finishes.txt", "r") as f:
-        for line in f:
-            score, finish = line.strip().split(" ", 1)
-            finishes[int(score)] = finish
-    return finishes
-
 
 def playGame(player1, player2, beginning_score, starterNum, finishes):
     p1score = beginning_score
@@ -76,18 +68,11 @@ def playGame(player1, player2, beginning_score, starterNum, finishes):
 
         print("=" * 40)
 
-
-
 if __name__ == '__main__':
     print("Welcome to the dart scorer!".center(40))
+    create_database()
+    insert_finishes()
     player1, player2, starterNum = getNames()
     beginning_score = setStartingScore()
-    finishes = loadFinishes() 
+    finishes = load_finishes()
     playGame(player1, player2, beginning_score, starterNum, finishes)
-
-
-
-
-
-
-
