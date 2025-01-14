@@ -3,7 +3,7 @@
 import sys
 import random
 import time
-from databaseManager import create_database, insert_finishes, load_finishes
+from database_manager import create_database, load_finishes
 
 def setStartingScore():
     beginning_score = int(input("Enter the starting score: "))
@@ -71,7 +71,6 @@ def playGame(player1, player2, beginning_score, starterNum, finishes):
 if __name__ == '__main__':
     print("Welcome to the dart scorer!".center(40))
     create_database()
-    insert_finishes()
     player1, player2, starterNum = getNames()
     beginning_score = setStartingScore()
     finishes = load_finishes()
