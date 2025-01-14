@@ -14,8 +14,8 @@ This repo is a Dart Scorer application. The way the code works is that it takes 
 
 ## 🔮 Future Changes
 
-- Add validation so a user can't enter a score to win when it is not a valid checkout as per double out rules. For example, winning the game off a 180
-- Add try-except blocks to handle file problems if the file is missing, empty or not in the correct format
+- Add validation so a user can't enter a score to win when it is not a valid checkout as per double out rules. For example, winning the game off a 180 🔜
+- Add try-except blocks to handle file problems if the file is missing, empty or not in the correct format 🔜
 - Chamge the finishes file to an SQL database ✅
 
 
