@@ -14,7 +14,7 @@ This repo is a Dart Scorer application. The way the code works is that it takes 
 
 - Add validation so a user can't enter a score to win when it is not a valid checkout as per double out rules. For example, winning the game off a 180
 - Add try-except blocks to handle file problems if the file is missing, empty or not in the correct format
-- Chamge the finishes file to an SQL database
+- Chamge the finishes file to an SQL database ✅
 
 
 ---
@@ -22,6 +22,7 @@ This repo is a Dart Scorer application. The way the code works is that it takes 
 ## 🖋️ Languages Used
 
 [![Python Badge](https://img.shields.io/badge/-Python-28A745?style=for-the-badge&logo=python&logoColor=white&labelColor=28A745&logoWidth=0&width=200&height=50)](https://www.python.org/)
+[![SQL Badge](https://img.shields.io/badge/-SQL-FFA500?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=FFA500&logoWidth=0&width=200&height=50)](https://www.postgresql.org/)
 
 
 
